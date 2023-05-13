@@ -1,4 +1,4 @@
-<package>
+<package format="2">
   <name>filters</name>
   <version>1.9.2</version>
   <description>
@@ -20,11 +20,11 @@
   <build_depend>rostest</build_depend>
   <build_depend>libboost-dev</build_depend>
 
-  <run_depend>roslib</run_depend>
-  <run_depend>rosconsole</run_depend>
-  <run_depend>roscpp</run_depend>
-  <run_depend>pluginlib</run_depend>
-  <run_depend>libboost-dev</run_depend>
+  <exec_depend>roslib</exec_depend>
+  <exec_depend>rosconsole</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <build_export_depend>libboost-dev</build_export_depend>
 
 
   <export>
